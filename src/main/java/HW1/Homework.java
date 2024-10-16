@@ -24,9 +24,9 @@ public class Homework {
         double total = price*qty;
 
         System.out.println("-------------------------------------------------------------\n");
-        System.out.printf("%-10s %5s %10s %10s%n", "Name","Qty","Price","Total");
-        System.out.printf("%-10s %5s %10s %10s%n", "-----","-----","-----","-----\n");
-        System.out.printf("%-10s %5d %10.2f %10.2f%n",Name,qty,price,total);
+        System.out.printf("%-10s %-5s %10s %10s%n", "Name","Qty","Price","Total");
+        System.out.printf("%-10s %-5s %10s %10s%n", "-----","-----","-----","-----\n");
+        System.out.printf("%-10s %-5d %10.2f %10.2f%n",Name,qty,price,total);
         System.out.println("\n" + closingStatement + "\n \n" + purchaseDate);
         System.out.println("\n-------------------------------------------------------------");
     }
