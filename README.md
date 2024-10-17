@@ -27,6 +27,7 @@ a requirement that the age cannot be less than zero and you can code this requir
 
 class Person {
     int age;
+    
     public Person(int age) {
         if (age < 0) {           
             this.age = 0;    // automatically set age to zero if they input a number that doesn't satisfy the condition
