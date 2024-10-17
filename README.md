@@ -16,16 +16,17 @@ Purposes of a parameterized constructor:
 (Though not new as I've worked with it briefly, the term found is new)
 
 -Encapsulating Inlitialization logic: 
+
 when using parameterized constructors you can create what I'm going to refer to as "special rules" for creating your objects
 that instructs your program to check for certain conditions when creating that object.
 
 example: 
+
 If you're creating a Person object and one of the arguments you require for creating a person is that they input an age, it would be beneficial to create
 a requirement that the age cannot be less than zero and you can code this requirment inside of your constructor
 
 class Person {
     int age;
-
     public Person(int age) {
         if (age < 0) {           
             this.age = 0;    // automatically set age to zero if they input a number that doesn't satisfy the condition
